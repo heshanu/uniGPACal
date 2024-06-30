@@ -45,10 +45,7 @@ var courseUnits = [
                     id: 'IT104071',
                     moduleCredit: 4
                 },
-                    // {
-                    //         name: 'Database Design',
-                    //         id: 'IT104061'
-                    // },
+
                 ]
             },
             {
