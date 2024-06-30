@@ -156,19 +156,19 @@ app.controller("gpaCtrl", function ($scope) {
 
                 for (j = 0; j < semester.subs.length; j++) {
                     let currentSubject = semester.subs[j];
-                    let subjectCredit = 1 * currentSubject.moduleCredit;
+                    let subjectCredit = 1 * currentSubject.id.substr(-3);
 
                     totalNumOfSubjects += 1;
 
                     if (currentSubject.grade != null && currentSubject.grade != undefined) {
-                        // myResults.push({
-                        //     year: parseInt(i + 1),
-                        //     grade: currentSubject.grade,
-                        //     credit: parseInt(currentSubject.id.substr(-1)),
-                        // });
-                        // mySubjects += 1;
+                        myResults.push({
+                            year: parseInt(i + 1),
+                            grade: currentSubject.grade,
+                            credit: parseInt(currentSubject.id.substr(-3)),
+                        });
+                        mySubjects += 1;
 
-                        let subjectGPA = currentSubject.grade * currentSubject.moduleCredit;
+                        let subjectGPA = currentSubject.grade * currentSubject.id.substr(-3);
 
                         semesterGPA += subjectGPA;
                         yearGPA += subjectGPA;
