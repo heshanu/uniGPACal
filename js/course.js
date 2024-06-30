@@ -14,28 +14,36 @@ var courseUnits = [
         sems: [
             {
                 sem: '1',
+                semCredits: 24,
                 subs: [{
                     name: 'Mathematics for ICT 1',
-                    id: 'IT103011'
+                    id: 'IT103011',
+                    moduleCredit: 3
                 }, {
                     name: 'Computer Programming',
-                    id: 'IT104021'
+                    id: 'IT104021',
+                    moduleCredit: 4
                 }, {
                     name: 'Software Development Practices',
-                    id: 'IT104031'
+                    id: 'IT104031',
+                    moduleCredit: 4
                 }, {
                     name: 'Data Communication and Network',
-                    id: 'IT104051'
+                    id: 'IT104051',
+                    moduleCredit: 3
                 }, {
                     name: 'Digital Eletronics',
-                    id: 'IT104041'
+                    id: 'IT104041',
+                    moduleCredit: 3
                 }, {
                     name: 'Database Design',
-                    id: 'IT104061'
+                    id: 'IT104061',
+                    moduleCredit: 3
                 },
                 {
                     name: 'Internet Techonlogy',
-                    id: 'IT104071'
+                    id: 'IT104071',
+                    moduleCredit: 4
                 },
                     // {
                     //         name: 'Database Design',
@@ -45,32 +53,41 @@ var courseUnits = [
             },
             {
                 sem: '2',
+                semCredits: 31,
                 subs: [{
                     name: 'Operation Systems',
-                    id: 'IT202011'
+                    id: 'IT202011',
+                    moduleCredit: 2
                 }, {
                     name: 'Mathematics for ICT 11',
-                    id: 'IT203021'
+                    id: 'IT203021',
+                    moduleCredit: 3
                 }, {
                     name: 'Computer Architecture',
-                    id: 'IT203031'
+                    id: 'IT203031',
+                    moduleCredit: 3
                 }, {
                     name: 'Data Struture and Algorithms',
-                    id: 'IT204041'
+                    id: 'IT204041',
+                    moduleCredit: 4
                 }, {
                     name: 'Database and programming',
-                    id: 'IT206051'
+                    id: 'IT206051',
+                    moduleCredit: 6
                 }, {
                     name: 'Visual Programming 1',
-                    id: 'IT204061'
+                    id: 'IT204061',
+                    moduleCredit: 4
                 },
                 {
                     name: 'Web Programming',
-                    id: 'IT206071'
+                    id: 'IT206071',
+                    moduleCredit: 6
                 },
                 {
                     name: 'Computer Network',
-                    id: 'IT203081'
+                    id: 'IT203081',
+                    moduleCredit: 3
                 },
                     // {
                     //     name: 'Visual Programming',
@@ -85,30 +102,32 @@ var courseUnits = [
         sems: [
             {
                 sem: '3',
+                semCredits: 32,
                 subs: [
                     {
                         name: 'Web Technology and Application',
-                        id: 'IT304011'
+                        id: 'IT304011',
+                        moduleCredit: 4
                     }, {
                         name: 'PIP',
-                        id: 'IT304021'
+                        id: 'IT304021', moduleCredit: 4
                     }, {
                         name: 'Visual Programming 11',
-                        id: 'IT306031'
+                        id: 'IT306031', moduleCredit: 6
                     }, {
                         name: 'Software Arch and Design',
-                        id: 'IT306041'
+                        id: 'IT306041', moduleCredit: 6
                     },
                     {
                         name: 'Software Deployment and Evolution',
-                        id: 'IT306051'
+                        id: 'IT306051', moduleCredit: 4
                     }
                     , {
                         name: 'Database Implmentation',
-                        id: 'IT304061'
+                        id: 'IT304061', moduleCredit: 4
                     }, {
                         name: 'Entrepreurship Development and Management',
-                        id: 'MS304121'
+                        id: 'MS304121', moduleCredit: 4
                     }
                     //, {
                     //     id: "IT302160",
@@ -122,6 +141,7 @@ var courseUnits = [
             },
             {
                 sem: '4',
+                semCredits: 28,
                 subs: [{
                     name: 'Software Architecture and Design',
                     id: 'SENG 22212'
