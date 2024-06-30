@@ -1,8 +1,7 @@
 # Software Engineering GPA Calculator - University of Kelaniya
 
-Simple GPA Calculator and analysis tools developed for SE 2015/16 Batch.
+Simple GPA Calculator and analysis tools developed to UOVT
 
-LINK : https://nuwan94.github.io/se-gpa-calculator/
 
 ![Screenshot](https://i.imgur.com/neS6R6f.png)
 
