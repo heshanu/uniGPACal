@@ -1,4 +1,4 @@
-# Software Engineering GPA Calculator - University of Kelaniya
+# Software Engineering GPA Calculator - University of UOVT
 
 Simple GPA Calculator and analysis tools developed to UOVT
 
