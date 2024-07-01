@@ -3,7 +3,7 @@
 Simple GPA Calculator and analysis tools developed to UOVT
 
 
-![Screenshot](https://i.imgur.com/neS6R6f.png)
+![Screenshot](https://imgur.com/a/VaoaDzD)
 
 ## Frameworks used
 
