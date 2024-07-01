@@ -19,3 +19,5 @@ Simple GPA Calculator and analysis tools developed to UOVT
 ## Contribute
 
 Found any bug 🐞? Don't hesitate to open a pull request. 😃
+
+At the time you can calculate till 3rd semester gpa.Looking forward to develop more.
