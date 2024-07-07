@@ -170,7 +170,7 @@ app.controller("gpaCtrl", function ($scope) {
 
 
                         let subjectGPA;
-                        if (currentSubject.id = 'IT514011') {
+                        if (currentSubject.id == 'IT514011') {
                             subjectGPA = currentSubject.grade * 14;
                         }
 
