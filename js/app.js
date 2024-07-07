@@ -168,7 +168,13 @@ app.controller("gpaCtrl", function ($scope) {
                         });
                         mySubjects += 1;
 
-                        let subjectGPA = currentSubject.grade * currentSubject.id.substr(-3);
+
+                        let subjectGPA;
+                        if (currentSubject.id = 'IT514011') {
+                            subjectGPA = currentSubject.grade * 14;
+                        }
+
+                        subjectGPA = currentSubject.grade * currentSubject.id.substr(-3);
 
                         semesterGPA += subjectGPA;
                         yearGPA += subjectGPA;
