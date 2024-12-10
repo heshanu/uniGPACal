@@ -106,7 +106,7 @@ var courseUnits = [
                     },
                     {
                         name: 'Software Deployment and Evolution',
-                        id: 'IT306051',
+                        id: 'IT30405',
                     }
                     , {
                         name: 'Database Implmentation',
