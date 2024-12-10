@@ -1,10 +1,3 @@
-/* 
-
-GPA Calculator by Nuwan94
-https://github.com/nuwan94/se-gpa-calculator
-
-*/
-
 
 var courseName = "B Tech in Software Technology - University of Vocational Technology";
 
@@ -85,11 +78,7 @@ var courseUnits = [
                     name: 'Computer Network',
                     id: 'IT203081',
                     moduleCredit: 3
-                },
-                    // {
-                    //     name: 'Visual Programming',
-                    //     id: 'IT203091'
-                    // },
+                }
                 ]
             }
         ]
@@ -104,36 +93,29 @@ var courseUnits = [
                     {
                         name: 'Web Technology and Application',
                         id: 'IT304011',
-                        moduleCredit: 4
+                        
                     }, {
                         name: 'PIP',
-                        id: 'IT304021', moduleCredit: 4
+                        id: 'IT304021',
                     }, {
                         name: 'Visual Programming 11',
-                        id: 'IT306031', moduleCredit: 6
+                        id: 'IT306031', 
                     }, {
                         name: 'Software Arch and Design',
-                        id: 'IT306041', moduleCredit: 6
+                        id: 'IT306041', 
                     },
                     {
                         name: 'Software Deployment and Evolution',
-                        id: 'IT306051', moduleCredit: 4
+                        id: 'IT306051',
                     }
                     , {
                         name: 'Database Implmentation',
-                        id: 'IT304061', moduleCredit: 4
+                        id: 'IT304061', 
                     }, {
                         name: 'Entrepreurship Development and Management',
-                        id: 'MS304121', moduleCredit: 4
+                        id: 'MS304121',
                     }
-                    //, {
-                    //     id: "IT302160",
-                    //     name: "Professional Practices"
-                    // }, {
-                    //     name: 'Interactive Application Development',
-                    //     id: 'SENG 21263',
-                    //     type: 'o'
-                    //     }
+                    
                 ]
             },
             {
