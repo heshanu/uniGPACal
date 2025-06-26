@@ -2,6 +2,7 @@
 
 Simple GPA Calculator and analysis tools developed to UOVT
 
+https://uni-gpa-cal.vercel.app/
 
 ![Screenshot](https://imgur.com/a/VaoaDzD)
 
